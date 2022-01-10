@@ -1,3 +1,4 @@
+package general;
 class Student
 {
 int sid;

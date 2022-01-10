@@ -1,3 +1,4 @@
+package general;
 
 public class FinalDemo {
 	int a;
