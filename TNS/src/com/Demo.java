@@ -1,5 +1,4 @@
 package com;
-import general.GitClass.*;
 public class Demo {
 void func()
 {
