@@ -1,5 +1,7 @@
 package Day_15_Exception_Handling;
 
+import java.util.Scanner;
+
 public class ExceptionHandlingDemo3 {
 	
 	static void validate(int age)
@@ -12,9 +14,12 @@ public class ExceptionHandlingDemo3 {
 	
 	public static void main(String args[])
 	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Please eneter the age");
+		int age=sc.nextInt();
 		try
 		{
-	validate(7);
+	validate(age);
 		}
 		catch(ArithmeticException ae)
 		{
