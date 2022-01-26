@@ -9,7 +9,9 @@ import java.util.List;
 public class Iterator_Ex {
 
 	public static void main(String[] args) {
+		
 		List<Integer> list = new ArrayList<>();
+		
         list.add(1);
         list.add(2);
         list.add(3);
@@ -24,7 +26,6 @@ public class Iterator_Ex {
         	System.out.println(n);
         	if(n==5)
         		iterator.remove();
-        	 
         }
         System.out.println("-------------------------");
         System.out.println(list);

@@ -61,7 +61,6 @@ public class ArrayListDemo {
 		al1.add(1, s);
 		al1.add(s1);
 		al1.add(s2);
-		
 		System.out.println("Size:" +al1.size());
 		
 		ArrayList  al2=new ArrayList(al1);
