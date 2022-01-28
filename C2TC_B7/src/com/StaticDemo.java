@@ -1,5 +1,6 @@
 package com;
 public class StaticDemo {
+	
 	static int a = 10;
     static int b;
 	static int c=25 ;
@@ -24,7 +25,7 @@ public class StaticDemo {
 		// System.exit(0); 
 		
 	}
-
+	
 	public static void main(String[] args) {
 		System.out.println("c Value is" +StaticDemo.c);
 		StaticDemo obj=new StaticDemo();

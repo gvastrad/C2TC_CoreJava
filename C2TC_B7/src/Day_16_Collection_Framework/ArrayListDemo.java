@@ -43,8 +43,10 @@ class Employee1
 }
 public class ArrayListDemo {
 
+	@SuppressWarnings("removal")
 	public static void main(String[] args) 
 	{
+
 		Student1 s1=new Student1(101,"Harry",10);
 		Student1 s2=new Student1(102,"Potter",10);
 		Integer i=new Integer(100);
