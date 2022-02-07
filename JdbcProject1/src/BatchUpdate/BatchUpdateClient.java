@@ -16,12 +16,16 @@ public class BatchUpdateClient {
 		  Statement st=connection.createStatement();
 		
 		  String sql1="INSERT INTO employee_table(employee_id,employee_name,email,esalary,bonus,doj)"+
-				 "VALUES(11,'Sharath','sharath@gmail.com',6000,3000,'2022-03-03')";
+				 "VALUES(9,'Sharath','sharath@gmail.com',6000,3000,'2022-03-03')";
+		  
 		  st.addBatch(sql1);
-		  String sql2="update employee_table set employee_name='Abhishek' where employee_id=11";
+		  
+		  String sql2="update employee_table set employee_name='Abhishek' where employee_id=8";
 		  st.addBatch(sql2);
-		String sql3="delete  from employee_table where employee_id=10"; 
+		  
+		String sql3="delete  from employee_table where employee_id=5"; 
 		st.addBatch(sql3);
+		
 		int i[]=st.executeBatch();
 		for(int j=0;j<i.length;j++)
 		{
