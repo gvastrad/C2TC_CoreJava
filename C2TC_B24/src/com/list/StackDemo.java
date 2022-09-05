@@ -1,4 +1,4 @@
-package Collection_Framework;
+package com.list;
 
 import java.util.ListIterator;
 import java.util.Stack;

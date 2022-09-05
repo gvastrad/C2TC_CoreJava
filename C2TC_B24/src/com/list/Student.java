@@ -1,4 +1,4 @@
-package Collection_Framework;
+package com.list;
 
 class Student
 {
