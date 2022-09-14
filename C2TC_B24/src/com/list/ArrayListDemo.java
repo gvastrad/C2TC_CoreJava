@@ -3,10 +3,10 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-
+@SuppressWarnings(value = { "" })
 public class ArrayListDemo {
 	//int price;
-
+	
 	public static void main(String[] args) {
 		List al=new ArrayList();
 		Student s2=new Student(102,"Rashmi","ECE");
