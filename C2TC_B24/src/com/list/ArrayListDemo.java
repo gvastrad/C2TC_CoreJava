@@ -3,7 +3,7 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-@SuppressWarnings(value = { "" })
+@SuppressWarnings(value = { "unchecked" })
 public class ArrayListDemo {
 	//int price;
 	

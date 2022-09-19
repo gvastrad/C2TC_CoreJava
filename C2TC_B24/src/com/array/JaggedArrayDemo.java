@@ -1,5 +1,5 @@
 package com.array;
-ArrayList
+
 public class JaggedArrayDemo {
 	public static void main(String[] args)
 	{
