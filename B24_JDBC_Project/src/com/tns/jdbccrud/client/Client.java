@@ -9,10 +9,11 @@ public class Client {
 	public static void main(String[] args) throws SQLException {
 		Service service=new Service();
         //service.addStudent();
-        service.getStudents();
-        service.updateStudent();
-        service.deleteStudnet();
-        service.closeSession();
+        //service.getStudents();
+       // service.updateStudent();
+       // service.deleteStudnet();
+		service.storedProcedure();
+        //service.closeSession();
 	}
 
 }
