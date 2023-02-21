@@ -6,6 +6,7 @@ private int id;
 String name;
 private float salary;
 
+
 public Employee()
 {
 	System.out.println("In a default constructor");
