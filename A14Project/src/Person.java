@@ -6,7 +6,7 @@ public class Person {
 	private int age;
 	private int tax;
 	
-     public Person() {
+    public Person() {
 		
 	}
 		
@@ -14,8 +14,7 @@ public class Person {
 		this.name = name;
 		this.income = income;
 		this.gender = gender;
-		this.age = age;
-		
+		this.age = age;		
 	}
 	
 	public Person(String name, String gender, int age) {

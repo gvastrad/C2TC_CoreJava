@@ -16,6 +16,5 @@ public class TaxCalculation {
 					person.setTax((person.getIncome() - 800000) * 30 / 100 + 94000);
 				}
 		}
-		}
-		
+		}	
 }
