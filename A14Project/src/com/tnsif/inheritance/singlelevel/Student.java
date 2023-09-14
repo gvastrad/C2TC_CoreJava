@@ -1,4 +1,4 @@
-package com.tnsif.inheritance;
+package com.tnsif.inheritance.singlelevel;
 
 public class Student extends Citizen {
    private int rollNo;
@@ -7,7 +7,6 @@ public class Student extends Citizen {
     public Student() {
 	
 }
-
 	public Student(int rollNo,String collegeName,String name, int adhaarNumber, long phNo, String address) {
 		super(name, adhaarNumber, phNo, address);
 		this.rollNo=rollNo;
@@ -29,7 +28,6 @@ public class Student extends Citizen {
 	public void setCollegeName(String collegeName) {
 		this.collegeName = collegeName;
 	}
-
 
 	@Override
 	public String toString() {

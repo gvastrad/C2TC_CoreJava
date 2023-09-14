@@ -1,4 +1,4 @@
-package com.tnsif.inheritance;
+package com.tnsif.inheritance.singlelevel;
 
 public class Citizen {
 
@@ -6,6 +6,7 @@ public class Citizen {
 	private int adhaarNumber;
 	private long phNo;
 	private String address;
+	
 	public Citizen() {
 		super();
 	}
