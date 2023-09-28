@@ -13,6 +13,6 @@ public class Square extends Shape{
 	
 	@Override
 	void calArea() {
-		super.area=side*side;	
+		super.area=2/0;	
 }
 }
