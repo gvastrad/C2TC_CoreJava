@@ -6,5 +6,6 @@ public class AgeValidator {
          throw new InvalidAgeException("Invalid age. You are not eligible to vote.");
      }
     
-  } 
+  }
+    
 }

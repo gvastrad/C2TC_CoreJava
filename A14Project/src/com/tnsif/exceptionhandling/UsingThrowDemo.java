@@ -10,7 +10,6 @@ public class UsingThrowDemo {
 		obj.setName("Pooja");
 		obj.setPer(100);
 		obj.show();
-		
 		System.out.println("Enter Name and Age");
 		Scanner sc=new Scanner(System.in);
 		VoterInfo obj1=new VoterInfo();

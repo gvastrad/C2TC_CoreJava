@@ -10,8 +10,7 @@ public InvalidAgeException(String message) {
 
 @Override
 public String getMessage() {
-	return " The age must be greater than 18";
+	return message;
 }
-
 
 }
