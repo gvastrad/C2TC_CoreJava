@@ -1,7 +1,6 @@
 package com.tnsif.multithreading;
 
 public class RunnableDemo {
-
 	public static void main(String[] args) {
 		UsingRunnable ur = new UsingRunnable(10, 20, "Thread1");
 		UsingRunnable ur1 = new UsingRunnable(5, 10, "Thread2");
@@ -18,5 +17,4 @@ public class RunnableDemo {
 			e.printStackTrace();
 		}
 	}
-
 }
