@@ -1,5 +1,7 @@
 package com.tnsif.multithreading;
 
+import java.io.Serializable;
+
 public class ThreadMethodsDemo {
 
 	public static void main(String[] args) {
@@ -20,5 +22,4 @@ public class ThreadMethodsDemo {
 			System.err.println("Thread interrupted: " + e.getMessage());
 		}
 	}
-
 }
