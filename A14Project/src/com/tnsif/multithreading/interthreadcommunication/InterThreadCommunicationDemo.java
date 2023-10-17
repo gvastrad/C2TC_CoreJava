@@ -14,8 +14,5 @@ public class InterThreadCommunicationDemo {
 			} catch (InterruptedException e) {
 				System.out.println(e);
 			}
-			
-			ArrayList al=new ArrayList();
-			al.
 }
 }

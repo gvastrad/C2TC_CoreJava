@@ -1,4 +1,4 @@
-
+package basics;
 public class TaxCalculation {
 	// function to calculate tax
 		public void calculateTax(Person person) {
